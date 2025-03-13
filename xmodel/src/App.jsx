@@ -87,7 +87,7 @@ const App = () => {
             <h2>Fill out the form</h2>
             <form onSubmit={handleSubmit}>
               <div>
-                <label htmlFor="username">Username</label>
+                <label htmlFor="username">Username: </label>
                 <input
                   type="text"
                   id="username"
@@ -98,7 +98,7 @@ const App = () => {
                 />
               </div>
               <div>
-                <label htmlFor="email">Email</label>
+                <label htmlFor="email">Email: </label>
                 <input
                   type="email"
                   id="email"
@@ -109,7 +109,7 @@ const App = () => {
                 />
               </div>
               <div>
-                <label htmlFor="phone">Phone</label>
+                <label htmlFor="phone">Phone: </label>
                 <input
                   type="text"
                   id="phone"
@@ -120,7 +120,7 @@ const App = () => {
                 />
               </div>
               <div>
-                <label htmlFor="dob">Date of Birth</label>
+                <label htmlFor="dob">Date of Birth: </label>
                 <input
                   type="date"
                   id="dob"

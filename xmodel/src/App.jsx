@@ -77,6 +77,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <h1>User Details Modal</h1>
       <button onClick={openModal}>Open Form</button>
 
       {/* Modal */}
